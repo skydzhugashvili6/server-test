@@ -1,6 +1,6 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25577
+- query_port: 26406
   motd: '&1Another Bungee server'
   tab_list: GLOBAL_PING
   query_enabled: false
@@ -11,8 +11,8 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: 127.0.0.1:25577
-  max_players: 1
+  host: 0.0.0.0:26406
+  max_players: 100
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -46,5 +46,5 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: egler1.exaroton.me:48902
     restricted: false
